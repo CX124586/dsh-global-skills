@@ -1,6 +1,14 @@
 # DSH 全局技能：claw-doing + task-watchdog
 
+仓库：<https://github.com/CX124586/dsh-global-skills>
+
 两个技能装在 **用户级技能目录**（`~/.dsh/skills`），DSH 的任何项目会话都会自动加载，不需要在每个项目里重复配置。
+
+```sh
+# 换一台机器：克隆后一键安装
+git clone git@github.com:CX124586/dsh-global-skills.git
+cd dsh-global-skills && node install.mjs
+```
 
 | 技能 | 解决什么 | 入口脚本 |
 |---|---|---|
