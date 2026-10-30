@@ -32,7 +32,7 @@ node install.mjs --uninstall  # 卸载
 - `claw-doing` ← [seekcontext/claw-doing](https://github.com/seekcontext/claw-doing)（OpenClaw 运行/调试查看器）。原版读 OpenClaw 的 SQLite 运行库并带 Ink TUI；DSH 版改为只读解析 DSH 自己的会话日志（`~/.dsh/sessions/**/session.v*.jsonl.zstd`），不需要数据库和界面依赖。
 - `task-watchdog` ← ClawHub 技能 [anotherj1/task-watchdog](https://clawhub.ai/anotherj1/skills/task-watchdog)（挂机任务守护：定时检查进度、关弹窗、致命错误报警）。原版依赖 OpenClaw 的屏幕控制；DSH 版改为命令行进程守护，用输出空闲/总时长/致命输出三类信号判定，并把「关弹窗」换成「按进程组有界清理」。
 
-上游源码备份在 `../.claw-upstream/claw-doing`，便于对照。
+上游源码见 <https://github.com/seekcontext/claw-doing>，便于对照；本机另存了一份克隆在 `../.claw-upstream/claw-doing`（不在本仓库内）。
 
 ## 快速验证
 
